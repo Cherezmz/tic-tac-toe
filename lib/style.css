@@ -32,4 +32,23 @@ h1{
   /*test. 
   #div1{
       color: red
+  }*/
+
+/*need to fix aligment when the page size is changing*/
+  .flex-container{
+      display: flex;
+      justify-content: space-between;
+      
+  }
+
+  .blueTurn{
+    border: 3px solid black;
+    margin-left: 300px;
+    padding:  10px 20px;
+  }
+
+  .RedTurn{
+    border: 3px solid black;
+    margin-right: 300px;
+    padding:  10px 20px;
   }

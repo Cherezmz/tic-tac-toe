@@ -1,3 +1,35 @@
 body{
-    background-color: red;
+    background-color: wheat;
 }
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+  justify-content:center;
+
+  padding: 10px;
+}
+
+
+
+.grid-item {
+
+  
+    background-color: wheat;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  /*test. 
+  #div1{
+      color: red
+  }
